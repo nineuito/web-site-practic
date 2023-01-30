@@ -46,4 +46,10 @@ body {
 .btn {
   text-decoration: none;
   font-weight: 700;
+  color: white;
+  background-color: #FF6861;
+  border-radius: 100px;
+  padding: 22px 70px;
+  display: block;
+  width: 87px;
 }
