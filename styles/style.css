@@ -34,6 +34,14 @@ h1, h2, h3, h4, h5, h6, p {
   align-items: center;
 }
 
+.image-cow {
+  transition: all 0.5s ease;
+}
+
+.image-cow:hover {
+  border-radius: 250px;
+}
+
 .text-conteiner {
   margin-right: 180px;  
 }
@@ -58,6 +66,11 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 22px 70px;
   display: block;
   width: 87px;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background-color: #ff3b3b;
 }
 
 /* section 2 */
@@ -111,6 +124,12 @@ h1, h2, h3, h4, h5, h6, p {
 
 .image-ladybug {
   margin: 100px 125px 99px 101px;
+  transition: all 0.5s ease-in;
+}
+
+.image-ladybug:hover {
+  background: linear-gradient(180deg, #FFE195 0%, #FF5B5B 100%);
+  border-radius: 70px;
 }
 
 .text-conent-ladybug {
