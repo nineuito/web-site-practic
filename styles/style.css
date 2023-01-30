@@ -131,12 +131,14 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /* footer  */
-.footer-text {
-  margin: 0 auto;
-  width: 1110px;
+
+.footer {
   font-size: 15px;
   font-weight: 500;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 120px;
+  
+}
+
+.footer-conteiner {
+  padding-bottom: 120px;
+  text-align: center;
 }
