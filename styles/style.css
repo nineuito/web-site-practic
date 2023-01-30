@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
+  background: #FDFCEF;
 }
 
 .wrapper {
@@ -94,4 +95,48 @@ h1, h2, h3, h4, h5, h6, p {
 
 .text-item-second {
   font-weight: 500;
+}
+
+
+/* section 3 */
+
+.saction-third {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+  border-radius: 60px;
+  height: 486px;
+}
+
+.image-ladybug {
+  margin: 100px 125px 99px 101px;
+}
+
+.text-conent-ladybug {
+  margin: 76px auto 75px 122px;
+  width: 475px;
+}
+
+.title-section-third {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 140%;
+  margin-bottom: 24px;
+}
+
+.text-section-third {
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+/* footer  */
+.footer-text {
+  margin: 0 auto;
+  width: 1110px;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 120px;
 }
