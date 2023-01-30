@@ -20,6 +20,11 @@ body {
   margin: 0 928px 82px 0;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
 /* section 1 */
 
 .header {
@@ -52,4 +57,41 @@ body {
   padding: 22px 70px;
   display: block;
   width: 87px;
+}
+
+/* section 2 */
+
+.list-conteiner {
+  display: flex;
+  margin-bottom: 41px;
+}
+
+.saction-two {
+  margin-left: 190px;
+  margin-right: 190px;
+  width: 720px;
+}
+
+
+.text-section-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+  font-size: 40px;
+}
+
+
+.image-shoes {
+ margin-right: 34px;
+}
+
+.text-item-first {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 11px;
+  
+}
+
+.text-item-second {
+  font-weight: 500;
 }
