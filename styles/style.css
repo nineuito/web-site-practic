@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
-  background: #FDFCEF;
+  background: #fdfcef;
 }
 
 .wrapper {
@@ -18,10 +18,17 @@ body {
 
 /* logo  */
 .logo {
-  margin: 0 928px 82px 0;
+  margin: 0 auto;
+  padding-bottom: 82px;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
   padding: 0;
 }
@@ -43,7 +50,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .text-conteiner {
-  margin-right: 180px;  
+  margin-right: 180px;
 }
 
 .text-header {
@@ -61,7 +68,7 @@ h1, h2, h3, h4, h5, h6, p {
   text-decoration: none;
   font-weight: 700;
   color: white;
-  background-color: #FF6861;
+  background-color: #ff6861;
   border-radius: 100px;
   padding: 22px 70px;
   display: block;
@@ -86,7 +93,6 @@ h1, h2, h3, h4, h5, h6, p {
   width: 720px;
 }
 
-
 .text-section-title {
   display: flex;
   justify-content: center;
@@ -94,22 +100,19 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 40px;
 }
 
-
 .image-shoes {
- margin-right: 34px;
+  margin-right: 34px;
 }
 
 .text-item-first {
   font-weight: 700;
   font-size: 30px;
   margin-bottom: 11px;
-  
 }
 
 .text-item-second {
   font-weight: 500;
 }
-
 
 /* section 3 */
 
@@ -117,7 +120,7 @@ h1, h2, h3, h4, h5, h6, p {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+  background: linear-gradient(102deg, #fff6df 17.38%, #ffdfde 81.25%);
   border-radius: 60px;
   height: 486px;
 }
@@ -128,7 +131,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .image-ladybug:hover {
-  background: linear-gradient(180deg, #FFE195 0%, #FF5B5B 100%);
+  background: linear-gradient(180deg, #ffe195 0%, #ff5b5b 100%);
   border-radius: 70px;
 }
 
@@ -154,10 +157,40 @@ h1, h2, h3, h4, h5, h6, p {
 .footer {
   font-size: 15px;
   font-weight: 500;
-  
 }
 
 .footer-conteiner {
   padding-bottom: 120px;
+  display: block;
   text-align: center;
+}
+
+/* Responsive */
+
+/* Large: 992px - 1199px */
+@media (max-width: 1199px) {
+  .section-conteiner {
+    max-width: 960px;
+  }
+}
+
+/* Medium: 768px - 991px */
+@media (max-width: 991px) {
+  .section-conteiner {
+    max-width: 720px;
+  }
+}
+
+/* Small: 576px - 767px */
+@media (max-width: 767px) {
+  .section-conteiner {
+    max-width: 540px;
+  }
+}
+
+/* Extra small: 0px (320px) - 575px */
+@media (max-width: 575px) {
+  .section-conteiner {
+    padding: 0 15px;
+  }
 }
