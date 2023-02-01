@@ -170,7 +170,7 @@ p {
   .wrapper {
     max-width: 960px;
     align-items: center;
-    padding: 60px 0; 
+    padding: 0; 
     margin: 0 auto;
   }
 
@@ -247,8 +247,43 @@ p {
   .wrapper {
     max-width: 540px;
   }
-}
 
+  .logo {
+    padding-top: 50px;
+  }
+
+  .image-cow {
+    width: 320px;
+  }
+
+  .text-conteiner {
+    width: 320px;
+  }
+
+  .text-header {
+    width: 320px;
+  }
+
+  .conent-text {
+    text-align: center;
+  }
+
+  .saction-two {
+    width: 320px;
+  }
+
+  .text-section-title {
+    text-align: center;
+  }
+
+  .saction-third {
+    padding: 0 0 400px 0;
+  }
+
+  .image-ladybug {
+    margin: 100px;
+  }
+}
 /* Extra small: 0px (320px) - 575px */
 @media (max-width: 575px) {
   .wrapper {
