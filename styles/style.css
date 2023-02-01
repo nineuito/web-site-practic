@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -43,10 +47,12 @@ p {
 
 .image-cow {
   transition: all 0.5s ease;
+  transform: transform 0.25s;
 }
 
 .image-cow:hover {
   border-radius: 250px;
+  transform: scale(1.1);
 }
 
 .text-conteiner {
@@ -74,10 +80,12 @@ p {
   display: block;
   width: 87px;
   transition: all 0.5s ease;
+  transform: transform 0.25s;
 }
 
 .btn:hover {
   background-color: #ff3b3b;
+  transform: scale(1.1);
 }
 
 /* section 2 */
@@ -100,8 +108,14 @@ p {
   font-size: 40px;
 }
 
+
 .image-icon {
   margin-right: 34px;
+  transition: all 0.5s ease;
+}
+
+.list-conteiner:hover .image-icon {
+  background-color: rgb(110, 207, 162);
 }
 
 .text-item-first {
@@ -128,11 +142,11 @@ p {
 .image-ladybug {
   margin: 100px 125px 99px 101px;
   transition: all 0.5s ease-in;
+  transform: 0.25s;
 }
 
 .image-ladybug:hover {
-  background: linear-gradient(180deg, #ffe195 0%, #ff5b5b 100%);
-  border-radius: 70px;
+  transform: scale(1.1);
 }
 
 .text-conent-ladybug {
