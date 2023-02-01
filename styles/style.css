@@ -108,7 +108,6 @@ p {
   font-size: 40px;
 }
 
-
 .image-icon {
   margin-right: 34px;
   transition: all 0.5s ease;
@@ -145,13 +144,13 @@ p {
 }
 
 @keyframes rot {
-    0% {
-        transform: rotate(0deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
 
-    100% {
-        transform: rotate(360deg);
-    }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .text-conent-ladybug {
@@ -317,13 +316,7 @@ p {
 /* Extra small: 0px (320px) - 575px */
 @media (max-width: 575px) {
   .wrapper {
-    /* padding: 0 15px; */
-    /* margin: 0;
-    padding: 0; */
-    width: 320px;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
+    max-width: 320px;
   }
 
   .image-cow {
@@ -335,7 +328,8 @@ p {
   }
 
   .section-two {
-    width: 250px;  
+    width: 250px;
+    margin: 0;
   }
 
   .section-third {
@@ -343,7 +337,7 @@ p {
     padding-bottom: 500px;
   }
 
-  .image-ladybug{
+  .image-ladybug {
     width: 250px;
   }
 
@@ -360,5 +354,4 @@ p {
   #button-two {
     margin-left: 10px;
   }
-
 }
