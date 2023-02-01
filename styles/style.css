@@ -141,12 +141,17 @@ p {
 
 .image-ladybug {
   margin: 100px 125px 99px 101px;
-  transition: all 0.5s ease-in;
-  transform: 0.25s;
+  animation: 5s linear 0s normal none infinite running rot;
 }
 
-.image-ladybug:hover {
-  transform: scale(1.1);
+@keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .text-conent-ladybug {
