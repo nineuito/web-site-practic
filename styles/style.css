@@ -171,7 +171,7 @@ p {
   .wrapper {
     max-width: 960px;
     align-items: center;
-    padding: 0; 
+    padding: 0;
     margin: 0 auto;
   }
 
@@ -202,7 +202,7 @@ p {
   .text-header {
     width: 670px;
   }
- 
+
   .text-header {
     text-align: center;
   }
@@ -212,7 +212,7 @@ p {
     flex-direction: column;
     align-items: center;
     padding: 0 100px 400px 100px;
-  } 
+  }
 
   .text-conent-ladybug {
     padding: 0;
@@ -220,11 +220,11 @@ p {
     align-items: center;
     text-align: center;
   }
-  
+
   .title-section-third {
     align-items: center;
   }
-  
+
   .text-section-third {
     padding-left: 50px;
     width: 371px;
@@ -233,7 +233,6 @@ p {
   #button-two {
     margin-left: 120px;
   }
-
 }
 
 /* Medium: 768px - 991px */
