@@ -317,17 +317,34 @@ p {
 /* Extra small: 0px (320px) - 575px */
 @media (max-width: 575px) {
   .wrapper {
-    /* padding: 0 15; */
-    /* margin: 0 auto; */
+    /* padding: 0 15px; */
+    /* margin: 0;
+    padding: 0; */
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .image-cow {
+    width: 250px;
+  }
+
+  .text-conteiner {
+    width: 250px;
+  }
+
+  .section-two {
+    width: 250px;  
   }
 
   .section-third {
-    width: 350px;
+    width: 280px;
     padding-bottom: 500px;
   }
 
   .image-ladybug{
-    width: 230px;
+    width: 250px;
   }
 
   .text-conent-ladybug {
