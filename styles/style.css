@@ -100,7 +100,7 @@ p {
   font-size: 40px;
 }
 
-.image-shoes {
+.image-icon {
   margin-right: 34px;
 }
 
@@ -158,6 +158,7 @@ p {
 }
 
 .footer-text {
+  margin: 0 auto;
   font-size: 15px;
   font-weight: 500;
   text-align: center;
@@ -274,6 +275,17 @@ p {
 
   .text-section-title {
     text-align: center;
+  }
+
+  .list-conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .image-icon {
+    margin: 0;
   }
 
   .saction-third {
